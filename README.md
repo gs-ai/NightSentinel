@@ -14,9 +14,40 @@ Features
 
 ---
 
+Installation
+------------
+
+### Prerequisites
+- Python 3.9 or higher
+- Conda (Anaconda or Miniconda)
+
+### Setting Up the Environment
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gs-ai/NightSentinel.git
+   cd NightSentinel
+   ```
+
+2. Create a Conda environment:
+   ```bash
+   conda create -n nightsentinel python=3.9 -y
+   conda activate nightsentinel
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r NightSentinel_requirements.txt
+   ```
+
+---
+
 Usage
 -----
 To get started, run the `launch.py` script in the `NightSentinel_core` directory. Follow the prompts to input the URL you want to analyze.
+
+```bash
+python NightSentinel_core/launch.py
+```
 
 ---
 
