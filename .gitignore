@@ -1,0 +1,58 @@
+# System files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+*.egg-info/
+*.log
+*.tmp
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Other temporary files
+*.swp
+*.bak
+*.old
+*.orig
+
+# Additional workspace-specific ignores
+patches/
+tests/
+legacy/
+settings/
+assets/
+bundle/
+*.patch
+*.cfg
+*.jvv
+*.json
+*.md
+*.sh
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Ignore all submodule build artifacts
+camoufox-main/additions/
+camoufox-main/bundle/
+camoufox-main/patches/
+camoufox-main/pythonlib/
+camoufox-main/scripts/
+camoufox-main/settings/
+camoufox-main/tests/
+
+Scrapling-main/images/
+Scrapling-main/tests/
+Scrapling-main/scrapling/__pycache__/
+Scrapling-main/*.egg-info/

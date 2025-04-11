@@ -1,0 +1,43 @@
+# Core dependencies
+beautifulsoup4==4.12.2
+requests==2.31.0
+flask==2.3.2
+
+# Scrapling dependencies
+scrapy==2.9.0
+lxml==4.9.3
+pytest==7.4.2
+
+# Camoufox dependencies
+numpy==1.25.0
+pandas==2.1.0
+
+# Additional utilities
+pyyaml==6.0
+bandit==1.7.5
+flake8==6.1.0
+pre-commit==3.4.0
+
+dnspython
+mechanize
+flask-restful
+flasgger
+dicttoxml
+XlsxWriter
+unicodecsv
+rq
+selenium
+fake-useragent
+orjson
+cssselect
+w3lib
+tldextract
+
+# Additional dependencies based on imports
+mechanicalsoup
+parsel
+pyquery
+selectolax
+whois
+Pillow
+stem
