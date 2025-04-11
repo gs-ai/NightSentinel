@@ -1,0 +1,1 @@
+# This file makes the 'camoufox-main' directory a Python package.
